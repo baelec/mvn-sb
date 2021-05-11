@@ -1,0 +1,13 @@
+<assembly>
+    <id>shade</id>
+    <fileSets>
+        <fileSet>
+            <includes>
+                <include>*.jar</include>
+            </includes>
+            <directory>${project.build.directory}</directory>
+            <outputDirectory>.</outputDirectory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+    </fileSets>
+</assembly>
